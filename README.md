@@ -1,6 +1,6 @@
 Hi!
 
-This project is a mini game that I am working on, the game is not completed as of now.
+This project is a mini game that I am working on that was constructed with mainly JavaScript, the game is not completed as of now.
 This game allows you to play with 3 other AI players with a simple logic
 The big 2 game is based on a popular game that is played frquently in Asia. You can take a look at the game rules here:https://www.wikihow.com/Play-Big-Two
 
