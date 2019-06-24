@@ -1,0 +1,267 @@
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+	background-image: url("pexels-photo-242236.jpeg");
+	background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#leftSubContainer{
+	
+	width:20%;
+	float:left;
+	height:100%;
+	vertical-align:center;
+	
+}
+#centerSubContainer{
+	
+	width:60%;
+	float:left;
+	height:100%;
+
+}
+#rightSubContainer{
+	
+	width:20%;
+	float:left;
+	height:100%;
+	
+}
+
+#cardPlayedContainer{
+	
+	width:100%;
+	height:100%;
+	text-align: center;
+	padding-left:15.5%;
+}
+
+#controlPlayerContainer{
+	
+	text-align: center;
+	margin-top:30%;
+	vertical-align: middle;
+	font-size:25px;
+	font-weight: bold;
+	font-family: Helvetica, Sans-Serif;
+}
+ .centerCardContainer{
+	width: 120px;
+	height: 168px;
+	margin-right:1%;
+	float:left;
+	background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	vertical-align:center;
+
+ }
+ .cardContainer{
+	width: 7%;
+	height: 40%;
+	margin-right:0.3%;
+	float:left;
+	background-image: url("playing-card-568200_960_720.jpg");
+	background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	margin-top:5%;
+ }
+ 
+ .userCardContainer{
+	width: 120px;
+	height: 168px;
+	float:left;
+	margin-right:0.1%;
+	margin-top:5%;
+	background-image: url("pexels-photo-242236.jpeg");
+	background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+ }
+ 
+ 
+
+ 
+ #aiContainer{
+	
+	height:20%;
+	
+ }
+ #aiNameContainer{
+	
+	height:10%;
+
+ }
+ 
+ .aiStyle1{
+
+	height:100%;
+	width:33%;
+	float:left;
+	margin-left:0.5%;
+	background-color:black;
+	opacity: 0.3;
+
+ }
+  .aiStyle2{
+	  
+	height:100%;
+	width:33%;
+	float:left;
+	background-color:black;
+	opacity: 0.3;
+	
+ }
+   .aiNameContainerStyle{
+	text-align:center;  
+	height:100%;
+	width:33.3333333333%;
+	float:left;
+	opacity: 0.3;
+	font-size:30px;
+	font-weight:bold;
+	font-family: Helvetica, Sans-Serif;
+	
+ }
+  .aiStyle3{
+
+	height:100%;
+	width:33%;
+	float:left;
+	background-color:black;
+	opacity: 0.3;
+
+ }
+ 
+  .aiStyle3{
+
+	height:100%;
+	width:33%;
+	float:left;
+
+ }
+ 
+ #centerContainer{
+
+	height:25%;
+	position: relative;
+ }
+ 
+#goButton{
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-bottom:5%;
+	margin-right:50px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	height:35px;
+	width:200px;
+	
+ } 
+#goButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+	background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+	background-color:#e9e9e9;
+}
+#goButton:active {
+	position:absolute;
+	bottom:3px;
+}
+#userContainer{
+	
+	height:40%;
+	padding-left:10%;
+}
+
+#passButton{
+	
+	
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-bottom:3%;
+	margin-right:50px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:none;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	height:35px;
+	width:200px;
+	
+ } 
+#passButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+	background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+	background-color:#e9e9e9;
+}
+#passButton:active {
+	position:absolute;
+	bottom:3px;
+}
+ 
+ #userNameContainer{
+	text-align:center;  
+	height:5%;
+	opacity: 0.3;
+	font-size:30px;
+	font-weight:bold;
+	font-family: Helvetica, Sans-Serif;

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Big 2 Game</title>
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css"><!-- general style sheet-->
+  <link rel="stylesheet" href="css/cardStyles.css"><!-- style sheet for class names for each individual poker cards-->
+</head>
+<body>
+	<!--Forms the top full width container for the AI playzones-->
+	<div id="aiContainer">
+		
+		<!--AI1 playzones-->
+		<div id="ai1container" class="aiStyle1"></div>
+		
+		<!--AI2 playzones-->
+		<div id="ai2container" class="aiStyle2"></div>
+		
+		<!--AI3 playzones-->
+		<div id="ai3container" class="aiStyle3"></div>
+		
+	</div>
+	
+	<!--Forms the  full width container for the AI names-->
+	<div id="aiNameContainer">
+		
+		<div id="ai1Namecontainer" class="aiNameContainerStyle">AI1</div>
+		
+		<div id="ai2Namecontainer" class="aiNameContainerStyle">AI2</div>
+		
+		<div id="ai3Namecontainer" class="aiNameContainerStyle">AI3</div>
+		
+	</div>
+	
+	<!--Forms the central container for the the playzone cards, game buttons and game instructions-->
+	<div id = "centerContainer">
+		<div id="leftSubContainer">
+			<div id="controlPlayerContainer">Press Start Game to Start</div>
+		</div>
+		<div id="centerSubContainer">
+			<div id="cardPlayedContainer"></div>
+		</div>
+		<div id="rightSubContainer">
+			<button id="goButton" type="button">Start Game</button> <!--Button to progress the game, inner html of button changes as per conditions -->
+			<button id="passButton" type="button">Pass</button> <!--Button to for human player to pass his turn, only appears during human player's turn -->
+		</div>
+	</div>
+	
+	<!--Forms the playzone for the human player-->
+	<div id="userContainer"></div>
+	
+	<!--Forms the container for the user name-->
+	<div id="userNameContainer">user</div>
+	
+  <script src="js/initialize.js"></script>	
+  <script src="js/resetGame.js"></script>
+  <script src="js/sortArray.js"></script>
+  <script src="js/findDiamond3.js"></script>
+  <script src="js/playerFinishTurn.js"></script>
+  <script src="js/AIPlayCard.js"></script>
+  <script src="js/controls.js"></script>
+  <script src="js/resetPass.js"></script>
+  <script src="js/userPlayGame.js"></script>
+  <script src="js/script.js"></script>
+ 
+</body>
+</html>
+
