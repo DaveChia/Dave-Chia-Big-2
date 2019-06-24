@@ -17,3 +17,4 @@ Here are some of the components of the game that is still under construction:
 4. Improves UI and Styling
 5. Game Play Animations
 
+![alt text](https://github.com/DaveChia/Dave-Chia-Big-2/blob/master/Screenshot-2019-6-24%20Big%202%20Game(1).png)
